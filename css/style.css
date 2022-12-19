@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #bb9de0;
+}
+
+.header {
+  background-color: #1d1d1d;
+}
+
+.header h1 {
+  display: inline-block;
+  margin: 10px;
+  font-size: 40px;
+  background-color: #77bdd8;
+  width: 350px;
+  text-align: right;
+  margin-left: -10px;
+}
+
+.header nav {
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+  
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: #77d5d8;
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+.hero-message {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #77bdd8;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
